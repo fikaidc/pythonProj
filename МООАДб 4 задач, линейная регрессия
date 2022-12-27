@@ -1,24 +1,6 @@
 import numpy as np
-                         #1 задание
-# (код находит коэффициенты а, б методом крамера).
-
-# X = [1, 2, 3, 4, 5]
-# Y = [3, 5, 7, 9, 11]
-# n = len(X)
-#
-# summx, summxy, summy, summx2 = 0, 0, 0, 0
-# for i in range(0, n):
-#     summxy += (X[i] * Y[i])
-#     summx += X[i]
-#     summy += Y[i]
-#     summx2 += X[i]*X[i]
-#
-# a = (n*summxy - summx*summy)/(n*summx2-(summx)*(summx))
-# b = 1/n * summy - a * (summx/n)
-# print(a, b)
-
-
-#                         2 задание (линейная регрессия)
+                      
+#                          задание (линейная регрессия)
 
 #Let's make a function that will find the inverse matrix using the Gaussian sweep method
 #Сделаем функцию, которая будет находить обратную матрицу методом гауссовой прогонки
